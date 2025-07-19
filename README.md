@@ -65,7 +65,7 @@ split_data/test/M/
 ## 💾 Model Checkpoints
 
 Trained model weights were saved in `.keras` format. For example:
-breast_cancer_inception2.keras
+breast_cancer_inception2.keras<br>
 (DenseNet model was saved using .h5)
 
 These can be used to directly load the model for future inference.
