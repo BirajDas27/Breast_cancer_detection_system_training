@@ -21,7 +21,7 @@ To increase data diversity and reduce overfitting:
 - ✅ Rotation
 - ✅ Horizontal Flip
 - ✅ Vertical Flip
-- ✅ Grayscale conversion *(in selective runs)*
+- ❌ Grayscale conversion
 - ❌ Cropping & Tilting were avoided due to loss of critical cell features
 
 ---
@@ -31,7 +31,7 @@ To increase data diversity and reduce overfitting:
 | Model         | Optimizer | Learning Rate | Input Size | Pretrained |
 |---------------|-----------|----------------|------------|------------|
 | MobileNetV2   | Adam      | 0.0001         | 224×224    | Yes (ImageNet) |
-| InceptionV3   | RMSprop   | 0.00001        | 299×299    | Yes (ImageNet) |
+| InceptionV3   | RMSprop   | 0.00001        | 224×224    | Yes (ImageNet) |
 | DenseNet121   | Adam      | 0.0001         | 224×224    | Yes (ImageNet) |
 
 Each model was fine-tuned on our custom dataset after replacing the top classifier layers with new dense layers suitable for binary classification.
@@ -73,4 +73,10 @@ These can be used to directly load the model for future inference.
 
 ---
 
+## 📈 Performance
 
+| **Architecture** | **Accuracy** | **Precision** | **Recall** | **F1-score** | **Loss** |
+|------------------|--------------|---------------|------------|--------------|----------|
+| **DenseNet121**  | 96% | 0.94 | 0.93 | 0.93 | 0.12 |
+| **MobileNetV2**  | 92% | 0.91 | 0.89 | 0.90 | 0.18 |
+| **InceptionV3**  | 87% | 0.88 | 0.85 | 0.86 | 0.25 |
