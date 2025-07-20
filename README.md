@@ -7,10 +7,8 @@ This project focuses on classifying **benign** and **malignant** breast cancer c
 ## 📁 Dataset Overview
 
 The dataset consists of microscopic images categorized into two folders:
-- `B` — Benign cells
-- `M` — Malignant cells
-| Benign `B` | Malignant `M`|
-|------------|--------------|
+| Benign cells `B` | Malignant cells `M`|
+|------------------------|------------------------|
 | ![](screenshots/b.png) | ![](screenshots/m.png) |
 
 The dataset was augmented and then split into three sets:
