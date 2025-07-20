@@ -1,6 +1,6 @@
 # 🧠 Breast Cancer Cell Classification using Deep Learning
 
-This project focuses on classifying **benign** and **malignant** breast cancer cells using deep learning models trained on an **augmented dataset** of microscopic images. We employed state-of-the-art CNN architectures like MobileNetV2, InceptionV3, and DenseNet121 to detect cancerous patterns efficiently.
+This project focuses on classifying **benign** and **malignant** breast cancer cells using deep learning models trained on an **augmented dataset** of cytological images. We employed state-of-the-art CNN architectures like MobileNetV2, InceptionV3, and DenseNet121 to detect cancerous patterns efficiently.
 
 ---
 
@@ -9,11 +9,14 @@ This project focuses on classifying **benign** and **malignant** breast cancer c
 The dataset consists of microscopic images categorized into two folders:
 - `B` — Benign cells
 - `M` — Malignant cells
+| Benign `B` | Malignant `M`|
+|------------|--------------|
+| ![](screenshots/b.png) | ![](screenshots/m.png) |
 
 The dataset was augmented and then split into three sets:
-- `Train` — 70%
-- `Validation` — 15%
-- `Test` — 15%
+- `Train` — 70% (24,507 files)
+- `Validation` — 15% (5,285 files)
+- `Test` — 15% (5,261 files)
 
 ### 🔁 Data Augmentation Techniques Used
 To increase data diversity and reduce overfitting:
