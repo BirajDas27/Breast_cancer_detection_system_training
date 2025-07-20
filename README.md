@@ -80,3 +80,9 @@ These can be used to directly load the model for future inference.
 | **DenseNet121**  | 96% | 0.94 | 0.93 | 0.93 | 0.12 |
 | **MobileNetV2**  | 92% | 0.91 | 0.89 | 0.90 | 0.18 |
 | **InceptionV3**  | 87% | 0.88 | 0.85 | 0.86 | 0.25 |
+
+### 🎯 Accuracy Graphs
+
+| **DenseNet121** | **MobileNetV2** | **InceptionV3** |
+|-----------------------------------|-----------------------------------|-----------------|
+| ![](screenshots/acc_graph_DN.png) | ![](screenshots/acc_graph_MN.png) | ![](screenshots/acc_graph_IC.png) |
