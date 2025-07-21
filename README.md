@@ -105,8 +105,8 @@ These can be used to directly load the model for future inference.
 **2. Set up your virtual environment**<br>
   
   python -m venv venv<br>
-  source venv/bin/activate    # for Linux/macOS<br>
-  venv\Scripts\activate       # for Windows
+  source venv/bin/activate      #for Linux/macOS<br>
+  venv\Scripts\activate         #for Windows
 
 **3. Install dependencies**<br>
    
@@ -114,5 +114,5 @@ These can be used to directly load the model for future inference.
 
 **4. Run training or inference script**<br>
    
-  python train_model.py       # to train<br>
-  python test_model.py        # to test
+  python train_model.py         #to train<br>
+  python test_model.py          #to test
