@@ -92,3 +92,23 @@ These can be used to directly load the model for future inference.
 | **DenseNet121** | **InceptionV3** | **MobileNetV2** |
 |----------------------------|-----------------------------|-----------------------|
 | ![](screenshots/CM_DN.png) | ![](screenshots/CM_IC.png) | ![](screenshots/CM_MN.png) |
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository<br>
+  git clone https://github.com/yourusername/breast-cancer-classification.git
+  cd breast-cancer-classification
+
+2. Set up your virtual environment<br>
+  python -m venv venv<br>
+  source venv/bin/activate    # for Linux/macOS<br>
+  venv\Scripts\activate       # for Windows
+
+3. Install dependencies<br>
+   pip install -r requirements.txt
+
+4. Run training or inference script<br>
+   python train_model.py       # to train<br>
+   python test_model.py        # to test
