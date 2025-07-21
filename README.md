@@ -99,8 +99,8 @@ These can be used to directly load the model for future inference.
 
 **1. Clone the repository**<br>
   
-  git clone https://github.com/yourusername/breast-cancer-classification.git
-  cd breast-cancer-classification
+  git clone https://github.com/BirajDas27/Breast_cancer_detection_system_training.git<br>
+  cd Breast_cancer_detection_system_training
 
 **2. Set up your virtual environment**<br>
   
