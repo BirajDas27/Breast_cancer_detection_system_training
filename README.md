@@ -83,6 +83,12 @@ These can be used to directly load the model for future inference.
 
 ### 🎯 Accuracy Graphs
 
-| **DenseNet121** | **MobileNetV2** | **InceptionV3** |
+| **DenseNet121** | **InceptionV3** | **MobileNetV2** |
 |-----------------------------------|-----------------------------------|-----------------|
-| ![](screenshots/acc_graph_DN.png) | ![](screenshots/acc_graph_MN.png) | ![](screenshots/acc_graph_IC.png) |
+| ![](screenshots/acc_graph_DN.png) | ![](screenshots/acc_graph_IC.png) | ![](screenshots/acc_graph_MN.png) |
+
+### 📚 Confusion Matrices
+
+| **DenseNet121** | **InceptionV3** | **MobileNetV2** |
+|----------------------------|-----------------------------|-----------------------|
+| ![](screenshots/CM_DN.png) | ![](screenshots/CM_IC.png) | ![](screenshots/CM_MN.png) |
