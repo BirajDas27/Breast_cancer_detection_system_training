@@ -71,7 +71,7 @@ Below are some examples:
 
 | 🧪 Sample 1 – Benign Cell | 🧪 Sample 2 – Malignant Cell|
 |--------------------------------|--------------------------------|
-| ![](screenshots/b_heatmap.png) | ![](screenshots/m_heatmap.png) |
+| ![](screenshots/b_heatmap.png) | ![](screenshots/m_heatmap1.png) |
 
 As shown, the highlighted areas indicate regions the model considered most informative while making predictions.
 
