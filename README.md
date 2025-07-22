@@ -63,6 +63,22 @@ split_data/test/M/
 
 ---
 
+## 🔍 Model Interpretability: Heatmaps
+
+To better understand the model's focus during classification, we applied heatmap visualization techniques (e.g., Grad-CAM) on sample test images. These heatmaps highlight the regions that contributed most to the model’s decision.
+
+Below are some examples:
+
+### 🧪 Sample 1 – Benign Cell
+![Benign Heatmap](screenshots/b_heatmap.png)
+
+### 🧪 Sample 2 – Malignant Cell
+![Malignant Heatmap](screenshots/m_heatmap.png)
+
+As shown, the highlighted areas indicate regions the model considered most informative while making predictions.
+
+---
+
 ## 💾 Model Checkpoints
 
 Trained model weights were saved in `.keras` format. For example:
