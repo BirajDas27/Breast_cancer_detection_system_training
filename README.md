@@ -126,3 +126,6 @@ MobileNetV2: https://arxiv.org/abs/1801.04381<br>
 InceptionV3: https://arxiv.org/abs/1512.00567<br>
 
 DenseNet121: https://arxiv.org/abs/1608.06993<br>
+
+## 📌 License
+This project is open-source and free to use under the MIT License.
