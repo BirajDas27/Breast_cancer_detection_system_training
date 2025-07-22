@@ -63,6 +63,22 @@ split_data/test/M/
 
 ---
 
+## 🔍 Model Interpretability: Heatmaps
+
+To better understand the model's focus during classification, we applied heatmap visualization techniques (e.g., Grad-CAM) on sample test images. These heatmaps highlight the regions that contributed most to the model’s decision.
+
+Below are some examples:
+
+### 🧪 Sample 1 – Benign Cell
+![Benign Heatmap](screenshots/b_heatmap.png)
+
+### 🧪 Sample 2 – Malignant Cell
+![Malignant Heatmap](screenshots/m_heatmap.png)
+
+As shown, the highlighted areas indicate regions the model considered most informative while making predictions.
+
+---
+
 ## 💾 Model Checkpoints
 
 Trained model weights were saved in `.keras` format. For example:
@@ -92,3 +108,40 @@ These can be used to directly load the model for future inference.
 | **DenseNet121** | **InceptionV3** | **MobileNetV2** |
 |----------------------------|-----------------------------|-----------------------|
 | ![](screenshots/CM_DN.png) | ![](screenshots/CM_IC.png) | ![](screenshots/CM_MN.png) |
+
+---
+
+## 🚀 How to Run
+
+**1. Clone the repository**<br>
+  
+  git clone https://github.com/BirajDas27/Breast_cancer_detection_system_training.git<br>
+  cd Breast_cancer_detection_system_training
+
+**2. Set up your virtual environment**<br>
+  
+  python -m venv venv<br>
+  source venv/bin/activate      **#for Linux/macOS**<br>
+  venv\Scripts\activate         **#for Windows**
+
+**3. Install dependencies**<br>
+   
+  pip install -r requirements.txt
+
+**4. Run training or inference script**<br>
+   
+  python train_model.py         **#to train**<br>
+  python test_model.py          **#to test**
+
+
+## 📚 References
+[Tissue and Cell Journal – Research Paper]<br>
+
+MobileNetV2: https://arxiv.org/abs/1801.04381<br>
+
+InceptionV3: https://arxiv.org/abs/1512.00567<br>
+
+DenseNet121: https://arxiv.org/abs/1608.06993<br>
+
+## 📌 License
+This project is open-source and free to use under the MIT License.
