@@ -116,3 +116,13 @@ These can be used to directly load the model for future inference.
    
   python train_model.py         **#to train**<br>
   python test_model.py          **#to test**
+
+
+## 📚 References
+[Tissue and Cell Journal – Research Paper]<br>
+
+MobileNetV2: https://arxiv.org/abs/1801.04381<br>
+
+InceptionV3: https://arxiv.org/abs/1512.00567<br>
+
+DenseNet121: https://arxiv.org/abs/1608.06993<br>
