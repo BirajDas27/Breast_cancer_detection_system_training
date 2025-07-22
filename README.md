@@ -69,11 +69,9 @@ To better understand the model's focus during classification, we applied heatmap
 
 Below are some examples:
 
-### 🧪 Sample 1 – Benign Cell
-![Benign Heatmap](screenshots/b_heatmap.png)
-
-### 🧪 Sample 2 – Malignant Cell
-![Malignant Heatmap](screenshots/m_heatmap.png)
+| 🧪 Sample 1 – Benign Cell | 🧪 Sample 2 – Malignant Cell|
+|--------------------------------|--------------------------------|
+| ![](screenshots/b_heatmap.png) | ![](screenshots/m_heatmap.png) |
 
 As shown, the highlighted areas indicate regions the model considered most informative while making predictions.
 
